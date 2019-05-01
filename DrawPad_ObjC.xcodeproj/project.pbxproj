@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F56D1332278AECA00936DC5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F56D1322278AECA00936DC5 /* AppDelegate.m */; };
+		2F56D1362278AECA00936DC5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F56D1352278AECA00936DC5 /* ViewController.m */; };
+		2F56D1392278AECA00936DC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F56D1372278AECA00936DC5 /* Main.storyboard */; };
+		2F56D13B2278AECB00936DC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F56D13A2278AECB00936DC5 /* Assets.xcassets */; };
+		2F56D13E2278AECB00936DC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F56D13C2278AECB00936DC5 /* LaunchScreen.storyboard */; };
+		2F56D1412278AECB00936DC5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F56D1402278AECB00936DC5 /* main.m */; };
+		2F56D1482278AF7F00936DC5 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F56D1472278AF7F00936DC5 /* SettingsViewController.m */; };
+		2F56D14C2278B0C700936DC5 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F56D14B2278B0C700936DC5 /* MessageUI.framework */; };
+		2F56D14E2278B0D000936DC5 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F56D14D2278B0D000936DC5 /* Social.framework */; };
+		2F56D1502278B0D800936DC5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F56D14F2278B0D800936DC5 /* UIKit.framework */; };
+		2F56D1522278B0E000936DC5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F56D1512278B0DF00936DC5 /* Foundation.framework */; };
+		2F56D1542278B0E800936DC5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F56D1532278B0E800936DC5 /* CoreGraphics.framework */; };
+		2F56D15C2278EC5C00936DC5 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F56D15B2278EC5C00936DC5 /* ImageViewController.m */; };
+		2F56D1602278EE0400936DC5 /* ImageCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F56D15F2278EE0400936DC5 /* ImageCollectionViewCell.m */; };
+		2F56D1682279FA9000936DC5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F56D1672279FA9000936DC5 /* GoogleService-Info.plist */; };
+		2F56D16B227A000300936DC5 /* LocationService.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F56D16A227A000300936DC5 /* LocationService.m */; };
+		4795EEE03947D1E834020ECB /* libPods-DrawPad_ObjC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 93A142FFDBB330F51683A386 /* libPods-DrawPad_ObjC.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2F56D12E2278AECA00936DC5 /* DrawPad_ObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawPad_ObjC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F56D1312278AECA00936DC5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2F56D1322278AECA00936DC5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2F56D1342278AECA00936DC5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2F56D1352278AECA00936DC5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2F56D1382278AECA00936DC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2F56D13A2278AECB00936DC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2F56D13D2278AECB00936DC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2F56D13F2278AECB00936DC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F56D1402278AECB00936DC5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2F56D1472278AF7F00936DC5 /* SettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		2F56D1492278AF8900936DC5 /* SettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		2F56D14B2278B0C700936DC5 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		2F56D14D2278B0D000936DC5 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		2F56D14F2278B0D800936DC5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2F56D1512278B0DF00936DC5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2F56D1532278B0E800936DC5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2F56D15B2278EC5C00936DC5 /* ImageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
+		2F56D15D2278EC7500936DC5 /* ImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		2F56D15E2278EE0400936DC5 /* ImageCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageCollectionViewCell.h; sourceTree = "<group>"; };
+		2F56D15F2278EE0400936DC5 /* ImageCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageCollectionViewCell.m; sourceTree = "<group>"; };
+		2F56D1672279FA9000936DC5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2F56D169227A000200936DC5 /* LocationService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocationService.h; sourceTree = "<group>"; };
+		2F56D16A227A000300936DC5 /* LocationService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocationService.m; sourceTree = "<group>"; };
+		5591DF16D63D2334FED97D86 /* Pods-DrawPad_ObjC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DrawPad_ObjC.release.xcconfig"; path = "Target Support Files/Pods-DrawPad_ObjC/Pods-DrawPad_ObjC.release.xcconfig"; sourceTree = "<group>"; };
+		93A142FFDBB330F51683A386 /* libPods-DrawPad_ObjC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DrawPad_ObjC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3E19E48BE92005C7E6AA062 /* Pods-DrawPad_ObjC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DrawPad_ObjC.debug.xcconfig"; path = "Target Support Files/Pods-DrawPad_ObjC/Pods-DrawPad_ObjC.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F56D12B2278AECA00936DC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F56D1542278B0E800936DC5 /* CoreGraphics.framework in Frameworks */,
+				2F56D1522278B0E000936DC5 /* Foundation.framework in Frameworks */,
+				2F56D1502278B0D800936DC5 /* UIKit.framework in Frameworks */,
+				2F56D14E2278B0D000936DC5 /* Social.framework in Frameworks */,
+				2F56D14C2278B0C700936DC5 /* MessageUI.framework in Frameworks */,
+				4795EEE03947D1E834020ECB /* libPods-DrawPad_ObjC.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F56D1252278AECA00936DC5 = {
+			isa = PBXGroup;
+			children = (
+				2F56D1302278AECA00936DC5 /* DrawPad_ObjC */,
+				2F56D12F2278AECA00936DC5 /* Products */,
+				2F56D14A2278B0C600936DC5 /* Frameworks */,
+				3F1AF96E6576B837FA0F6B86 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		2F56D12F2278AECA00936DC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F56D12E2278AECA00936DC5 /* DrawPad_ObjC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F56D1302278AECA00936DC5 /* DrawPad_ObjC */ = {
+			isa = PBXGroup;
+			children = (
+				2F56D1312278AECA00936DC5 /* AppDelegate.h */,
+				2F56D1322278AECA00936DC5 /* AppDelegate.m */,
+				2F56D1342278AECA00936DC5 /* ViewController.h */,
+				2F56D1352278AECA00936DC5 /* ViewController.m */,
+				2F56D1492278AF8900936DC5 /* SettingsViewController.h */,
+				2F56D1472278AF7F00936DC5 /* SettingsViewController.m */,
+				2F56D15D2278EC7500936DC5 /* ImageViewController.h */,
+				2F56D15B2278EC5C00936DC5 /* ImageViewController.m */,
+				2F56D15E2278EE0400936DC5 /* ImageCollectionViewCell.h */,
+				2F56D15F2278EE0400936DC5 /* ImageCollectionViewCell.m */,
+				2F56D169227A000200936DC5 /* LocationService.h */,
+				2F56D16A227A000300936DC5 /* LocationService.m */,
+				2F56D1372278AECA00936DC5 /* Main.storyboard */,
+				2F56D13A2278AECB00936DC5 /* Assets.xcassets */,
+				2F56D13C2278AECB00936DC5 /* LaunchScreen.storyboard */,
+				2F56D13F2278AECB00936DC5 /* Info.plist */,
+				2F56D1672279FA9000936DC5 /* GoogleService-Info.plist */,
+				2F56D1402278AECB00936DC5 /* main.m */,
+			);
+			path = DrawPad_ObjC;
+			sourceTree = "<group>";
+		};
+		2F56D14A2278B0C600936DC5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F56D1532278B0E800936DC5 /* CoreGraphics.framework */,
+				2F56D1512278B0DF00936DC5 /* Foundation.framework */,
+				2F56D14F2278B0D800936DC5 /* UIKit.framework */,
+				2F56D14D2278B0D000936DC5 /* Social.framework */,
+				2F56D14B2278B0C700936DC5 /* MessageUI.framework */,
+				93A142FFDBB330F51683A386 /* libPods-DrawPad_ObjC.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3F1AF96E6576B837FA0F6B86 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C3E19E48BE92005C7E6AA062 /* Pods-DrawPad_ObjC.debug.xcconfig */,
+				5591DF16D63D2334FED97D86 /* Pods-DrawPad_ObjC.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F56D12D2278AECA00936DC5 /* DrawPad_ObjC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F56D1442278AECB00936DC5 /* Build configuration list for PBXNativeTarget "DrawPad_ObjC" */;
+			buildPhases = (
+				1C6FE7236EBE4685A1E5A126 /* [CP] Check Pods Manifest.lock */,
+				2F56D12A2278AECA00936DC5 /* Sources */,
+				2F56D12B2278AECA00936DC5 /* Frameworks */,
+				2F56D12C2278AECA00936DC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DrawPad_ObjC;
+			productName = DrawPad_ObjC;
+			productReference = 2F56D12E2278AECA00936DC5 /* DrawPad_ObjC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F56D1262278AECA00936DC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = scui5;
+				TargetAttributes = {
+					2F56D12D2278AECA00936DC5 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 2F56D1292278AECA00936DC5 /* Build configuration list for PBXProject "DrawPad_ObjC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2F56D1252278AECA00936DC5;
+			productRefGroup = 2F56D12F2278AECA00936DC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F56D12D2278AECA00936DC5 /* DrawPad_ObjC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F56D12C2278AECA00936DC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F56D13E2278AECB00936DC5 /* LaunchScreen.storyboard in Resources */,
+				2F56D1682279FA9000936DC5 /* GoogleService-Info.plist in Resources */,
+				2F56D13B2278AECB00936DC5 /* Assets.xcassets in Resources */,
+				2F56D1392278AECA00936DC5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C6FE7236EBE4685A1E5A126 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DrawPad_ObjC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F56D12A2278AECA00936DC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F56D15C2278EC5C00936DC5 /* ImageViewController.m in Sources */,
+				2F56D1362278AECA00936DC5 /* ViewController.m in Sources */,
+				2F56D1412278AECB00936DC5 /* main.m in Sources */,
+				2F56D1332278AECA00936DC5 /* AppDelegate.m in Sources */,
+				2F56D1602278EE0400936DC5 /* ImageCollectionViewCell.m in Sources */,
+				2F56D16B227A000300936DC5 /* LocationService.m in Sources */,
+				2F56D1482278AF7F00936DC5 /* SettingsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2F56D1372278AECA00936DC5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F56D1382278AECA00936DC5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2F56D13C2278AECB00936DC5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F56D13D2278AECB00936DC5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2F56D1422278AECB00936DC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2F56D1432278AECB00936DC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2F56D1452278AECB00936DC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3E19E48BE92005C7E6AA062 /* Pods-DrawPad_ObjC.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RQAE768Z9N;
+				INFOPLIST_FILE = DrawPad_ObjC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.scui5.DrawPad-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2F56D1462278AECB00936DC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5591DF16D63D2334FED97D86 /* Pods-DrawPad_ObjC.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RQAE768Z9N;
+				INFOPLIST_FILE = DrawPad_ObjC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.scui5.DrawPad-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F56D1292278AECA00936DC5 /* Build configuration list for PBXProject "DrawPad_ObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F56D1422278AECB00936DC5 /* Debug */,
+				2F56D1432278AECB00936DC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F56D1442278AECB00936DC5 /* Build configuration list for PBXNativeTarget "DrawPad_ObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F56D1452278AECB00936DC5 /* Debug */,
+				2F56D1462278AECB00936DC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F56D1262278AECA00936DC5 /* Project object */;
+}
