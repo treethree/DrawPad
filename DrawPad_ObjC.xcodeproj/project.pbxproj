@@ -94,24 +94,15 @@
 		2F56D1302278AECA00936DC5 /* DrawPad_ObjC */ = {
 			isa = PBXGroup;
 			children = (
-				2F56D1312278AECA00936DC5 /* AppDelegate.h */,
-				2F56D1322278AECA00936DC5 /* AppDelegate.m */,
-				2F56D1342278AECA00936DC5 /* ViewController.h */,
-				2F56D1352278AECA00936DC5 /* ViewController.m */,
-				2F56D1492278AF8900936DC5 /* SettingsViewController.h */,
-				2F56D1472278AF7F00936DC5 /* SettingsViewController.m */,
-				2F56D15D2278EC7500936DC5 /* ImageViewController.h */,
-				2F56D15B2278EC5C00936DC5 /* ImageViewController.m */,
-				2F56D15E2278EE0400936DC5 /* ImageCollectionViewCell.h */,
-				2F56D15F2278EE0400936DC5 /* ImageCollectionViewCell.m */,
-				2F56D169227A000200936DC5 /* LocationService.h */,
-				2F56D16A227A000300936DC5 /* LocationService.m */,
-				2F56D1372278AECA00936DC5 /* Main.storyboard */,
-				2F56D13A2278AECB00936DC5 /* Assets.xcassets */,
-				2F56D13C2278AECB00936DC5 /* LaunchScreen.storyboard */,
+				2F56D170227A12B100936DC5 /* AppDelegate */,
+				2F56D16E227A11FD00936DC5 /* View */,
+				2F56D16D227A11EC00936DC5 /* Custom Cell */,
+				2F56D16C227A11C800936DC5 /* View Controller */,
+				2F56D16F227A12A300936DC5 /* Services */,
 				2F56D13F2278AECB00936DC5 /* Info.plist */,
 				2F56D1672279FA9000936DC5 /* GoogleService-Info.plist */,
 				2F56D1402278AECB00936DC5 /* main.m */,
+				2F56D13A2278AECB00936DC5 /* Assets.xcassets */,
 			);
 			path = DrawPad_ObjC;
 			sourceTree = "<group>";
@@ -127,6 +118,55 @@
 				93A142FFDBB330F51683A386 /* libPods-DrawPad_ObjC.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2F56D16C227A11C800936DC5 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2F56D1342278AECA00936DC5 /* ViewController.h */,
+				2F56D1352278AECA00936DC5 /* ViewController.m */,
+				2F56D1492278AF8900936DC5 /* SettingsViewController.h */,
+				2F56D1472278AF7F00936DC5 /* SettingsViewController.m */,
+				2F56D15D2278EC7500936DC5 /* ImageViewController.h */,
+				2F56D15B2278EC5C00936DC5 /* ImageViewController.m */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		2F56D16D227A11EC00936DC5 /* Custom Cell */ = {
+			isa = PBXGroup;
+			children = (
+				2F56D15E2278EE0400936DC5 /* ImageCollectionViewCell.h */,
+				2F56D15F2278EE0400936DC5 /* ImageCollectionViewCell.m */,
+			);
+			path = "Custom Cell";
+			sourceTree = "<group>";
+		};
+		2F56D16E227A11FD00936DC5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2F56D1372278AECA00936DC5 /* Main.storyboard */,
+				2F56D13C2278AECB00936DC5 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2F56D16F227A12A300936DC5 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				2F56D169227A000200936DC5 /* LocationService.h */,
+				2F56D16A227A000300936DC5 /* LocationService.m */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		2F56D170227A12B100936DC5 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				2F56D1312278AECA00936DC5 /* AppDelegate.h */,
+				2F56D1322278AECA00936DC5 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
 			sourceTree = "<group>";
 		};
 		3F1AF96E6576B837FA0F6B86 /* Pods */ = {
